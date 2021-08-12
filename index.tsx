@@ -18,8 +18,67 @@ import Cherry from './china/landmark/wuhan-cherry.svg';
 import SilkRoad from './china/landmark/xian-silk-road.svg';
 import Terracotta from './china/landmark/xian-terracotta-army.svg';
 import Wall from './china/landmark/xian-wall.svg';
+// world
+import BrandenburgGate from './world/landmark/berlin-brandenburg-gate.svg';
+import ArchOfTriumph from './world/landmark/france-arch-of-triumph.svg';
+import EiffelTower from './world/landmark/france-eiffel-tower.svg';
+import Parthenon from './world/landmark/greece-parthenon.svg';
+import Colosseum from './world/landmark/italy-colosseum.svg';
+import Basil from './world/landmark/russia-basil.svg';
+import SagradaFamilia from './world/landmark/spain-sagrada-familia.svg';
+import BigBen from './world/landmark/uk-big-ben.svg';
+import Gherkin from './world/landmark/uk-gherkin.svg';
+import LondonEye from './world/landmark/uk-london-eye.svg';
+import Stonehenge from './world/landmark/uk-stonehenge.svg';
 
-export default [
+export const WorldLandmarks = [
+  {
+    name: 'BrandenburgGate',
+    imgSrc: BrandenburgGate,
+  },
+  {
+    name: 'ArchOfTriumph',
+    imgSrc: ArchOfTriumph,
+  },
+  {
+    name: 'EiffelTower',
+    imgSrc: EiffelTower,
+  },
+  {
+    name: 'Parthenon',
+    imgSrc: Parthenon,
+  },
+  {
+    name: 'Colosseum',
+    imgSrc: Colosseum,
+  },
+  {
+    name: 'Basil',
+    imgSrc: Basil,
+  },
+  {
+    name: 'SagradaFamilia',
+    imgSrc: SagradaFamilia,
+  },
+  {
+    name: 'BigBen',
+    imgSrc: BigBen,
+  },
+  {
+    name: 'Gherkin',
+    imgSrc: Gherkin,
+  },
+  {
+    name: 'LondonEye',
+    imgSrc: LondonEye,
+  },
+  {
+    name: 'Stonehenge',
+    imgSrc: Stonehenge,
+  },
+];
+
+const ChinaLandmarks = [
   {
     name: 'Huangshan',
     description: 'Huangshan',
@@ -123,3 +182,5 @@ export default [
     imgSrc: Wall,
   },
 ];
+
+export default ChinaLandmarks;
